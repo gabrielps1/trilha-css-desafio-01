@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    max-width: 1440px;
+    height: 170px;
+    margin-top: 20px;
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(180deg, #000000, #0a1a2f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Empilha a imagem e o texto */
+    align-items: center; /* Centraliza ambos */
+    gap: 10px; /* Espaço entre a imagem e o texto */
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;  
+}
+
+.dio {
+    color: #33A8DB; /* Cor específica para o link */
+    font-weight: bold; /* Deixa em negrito */
+    font-size: 18px; /* Ajusta o tamanho da fonte */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s; /* Efeito suave na cor ao passar o mouse */
+}
+
+.dio:hover {
+    color: #1a6e92; 
+}
